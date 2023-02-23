@@ -1,0 +1,182 @@
+[
+    {
+        "noExamen": 0,
+        "nombreExamen": "Historia",
+        "preguntas": [
+            {
+                "noPregunta": 1,
+                "pregunta": "¿Quien descurbio america?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            },
+            {
+                "noPregunta": 2,
+                "pregunta": "¿Quien descurbio america?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            },
+            {
+                "noPregunta": 3,
+                "pregunta": "¿Quien descurbio america?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "noExamen": 1,
+        "nombreExamen": "Matematicas",
+        "preguntas": [
+            {
+                "noPregunta": 1,
+                "pregunta": "¿Cuanto vale pi?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "noExamen": 2,
+        "nombreExamen": "Mecanica",
+        "preguntas": [
+            {
+                "noPregunta": 1,
+                "pregunta": "¿Quien descurbio america?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            },
+            {
+                "noPregunta": 2,
+                "pregunta": "¿Quien descurbio america?",
+                "imagen": "RutaImagen",
+                "respuestas": [
+                    {
+                        "respuesta1": "Peña nieto",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Cristobal colon",
+                        "isCorrect": true,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Fernando",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    },
+                    {
+                        "respuesta1": "Paola",
+                        "isCorrect": false,
+                        "imagen": "rutaImagen"
+                    }
+                ] 
+            }
+        ]
+    }
+]
