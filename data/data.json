@@ -1,6 +1,6 @@
 [
     {
-        "noExamen": 1,
+        "noExamen": 0,
         "nombreExamen": "Historia",
         "preguntas": [
             {
@@ -87,7 +87,7 @@
         ]
     },
     {
-        "noExamen": 2,
+        "noExamen": 1,
         "nombreExamen": "Matematicas",
         "preguntas": [
             {
@@ -120,8 +120,8 @@
         ]
     },
     {
-        "noExamen": 3,
-        "nombreExamen": "Historia",
+        "noExamen": 2,
+        "nombreExamen": "Mecanica",
         "preguntas": [
             {
                 "noPregunta": 1,
