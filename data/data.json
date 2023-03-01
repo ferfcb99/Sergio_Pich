@@ -36,22 +36,22 @@
                 "imagen": "RutaImagen",
                 "respuestas": [
                     {
-                        "respuesta1": "Peña nieto",
+                        "respuesta1": "1",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Cristobal colon",
+                        "respuesta1": "2",
                         "isCorrect": true,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Fernando",
+                        "respuesta1": "3",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Paola",
+                        "respuesta1": "4",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     }
@@ -63,22 +63,22 @@
                 "imagen": "RutaImagen",
                 "respuestas": [
                     {
-                        "respuesta1": "Peña nieto",
+                        "respuesta1": "5",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Cristobal colon",
+                        "respuesta1": "6",
                         "isCorrect": true,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Fernando",
+                        "respuesta1": "7",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     },
                     {
-                        "respuesta1": "Paola",
+                        "respuesta1": "8",
                         "isCorrect": false,
                         "imagen": "rutaImagen"
                     }
@@ -125,7 +125,7 @@
         "preguntas": [
             {
                 "noPregunta": 0,
-                "pregunta": "¿Quien descurbio america?",
+                "pregunta": "¿Cuanto vale pi?",
                 "imagen": "RutaImagen",
                 "respuestas": [
                     {

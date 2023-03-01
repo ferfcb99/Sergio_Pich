@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    
+    iniciaApp();
 });
 
 
@@ -8,7 +8,8 @@ const rutaDeDatos = '../data/data.json';
 const preguntas = [];
 const examenes = [];
 let numeroPregunta = 0;
-let numeroExamen = 0;
+let numeroExamen = 2;
+let numeroDePreguntas = 0;
 
 // botones
 const botonSiguiente = document.querySelector('.siguiente');
@@ -19,18 +20,46 @@ const botonAtras = document.querySelector('.atras');
 botonSiguiente.addEventListener('click', siguientePregunta);
 botonAtras.addEventListener('click', anteriorPregunta);
 
+function iniciaApp(){
+    botonAtras.classList.add('d-none');
+}
     
 function siguientePregunta(evt){
-    numeroPregunta = numeroPregunta + 1;
-    const campoPregunta = document.querySelector('.preguntas');
-    const parrafo = document.querySelector('.parrafo');
-    campoPregunta.removeChild(parrafo);
-    getExamenPorId(rutaDeDatos, numeroExamen);
+
+    if(numeroPregunta >= 0){
+        botonAtras.classList.remove('d-none');
+    }
+
+    if(numeroPregunta < (numeroDePreguntas - 1)){
+        numeroPregunta = numeroPregunta + 1;
+        const campoPregunta = document.querySelector('.preguntas');
+        const parrafo = document.querySelector('.parrafo');
+        campoPregunta.removeChild(parrafo);
+        getExamenPorId(rutaDeDatos, numeroExamen);
+    }else{
+        botonSiguiente.value = "Terminar";
+    }
+    
 }
 
-
 function anteriorPregunta(evt){
-    console.log("Evento atras")
+    numeroPregunta = numeroPregunta - 1;
+    if(numeroPregunta < 1){
+        botonAtras.classList.add('d-none');
+    }
+ 
+    if(numeroPregunta < (numeroDePreguntas)){
+
+        const campoPregunta = document.querySelector('.preguntas');
+        const parrafo = document.querySelector('.parrafo');
+        campoPregunta.removeChild(parrafo);
+        getExamenPorId(rutaDeDatos, numeroExamen);
+    }else{
+        botonSiguiente.value = "Siguiente";
+    }
+
+
+
 }
 
 function agregaPregunta(pregunta){
@@ -39,31 +68,23 @@ function agregaPregunta(pregunta){
     parrafo.textContent = pregunta['pregunta'];
     parrafo.classList.add('parrafo');
     campoPregunta.appendChild(parrafo);
-    console.log(parrafo);
+    console.log(`Tiene: ${numeroDePreguntas} preguntas`);
 }
 
-
+function obtieneNumeroDePreguntas(examen){
+    const cantidadPreguntas = examen['preguntas'].length;
+    return cantidadPreguntas;
+}
 
 function iteraExamen(examen){
-    console.log(examen['noExamen']);
-    console.log(examen['nombreExamen']);
-
     for (let i = 0; i < examen['preguntas'].length; i++) {
         if(i == numeroPregunta){
             const pregunta = examen['preguntas'][i];
             agregaPregunta(pregunta);
+            
+            numeroDePreguntas = obtieneNumeroDePreguntas(examen);
         }
     }
-    /*examen['preguntas'].forEach( (pregunta, index) =>{
-        // preguntas.push(pregunta);
-        // console.log(pregunta['pregunta']);
-        if(index === numeroPregunta){
-            console.log(pregunta['pregunta']);
-            console.log("Saliendo")
-            return;
-        }
-        agregaPregunta(pregunta);
-    });*/
 }
 
 // funcion que consulta los datos de una ruta
